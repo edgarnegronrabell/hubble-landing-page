@@ -1,0 +1,40 @@
+.main-nav {
+ 
+  vertical-align: baseline;
+}
+
+.headerLogo {
+  margin: 2vh 0;
+  margin-left: 2vw;
+  width: 30vw;
+}
+
+#main-call {
+  background: #FFF;
+  border: none;
+  border-radius: 5px;
+  color: hsl(265, 100%, 66%);
+  clear: both;
+  float: right;
+  padding: 2vh 3vw;
+}
+
+.mockup {
+  vertical-align: center;
+  width: 80vw;
+
+}
+
+.introDecor {
+  background: linear-gradient(180deg, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
+  border-radius: 35px;
+  display: inline-block;
+  height: 80vh;
+  transform: skew(30deg, -35deg);
+  position: absolute;
+  z-index: -1;
+  margin-left: 245px;
+  margin-top: -95px;
+  width: 60vw;
+  
+}
