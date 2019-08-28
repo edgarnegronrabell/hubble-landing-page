@@ -1,6 +1,14 @@
+body {
+
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins';
+}
+
 .main-nav {
- 
-  vertical-align: baseline;
+  align-content: center;
+  vertical-align: top;
 }
 
 .headerLogo {
@@ -12,11 +20,13 @@
 #main-call {
   background: #FFF;
   border: none;
-  border-radius: 5px;
+  border-radius: 1px;
   color: hsl(265, 100%, 66%);
-  clear: both;
   float: right;
-  padding: 2vh 3vw;
+  font-size: .5rem;
+  margin-right: 5vw;
+  padding: 1vh 5vw;
+  
 }
 
 .mockup {
@@ -35,6 +45,12 @@
   z-index: -1;
   margin-left: 245px;
   margin-top: -95px;
+
   width: 60vw;
   
+}
+
+.usersImage {
+  width: 80vw;
+  margin: 0 auto;
 }
